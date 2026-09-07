@@ -1,0 +1,140 @@
+.lab {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.lab-heading {
+  margin-bottom: 24px;
+}
+.lab-heading h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+.lab-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  min-width: 0;
+}
+.lab-card h2 {
+  font-size: 22px;
+  margin: 0 0 12px;
+}
+.lab-card h3 {
+  font-size: 19px;
+  margin-top: 24px;
+}
+.lab-card p {
+  overflow-wrap: anywhere;
+}
+.lab label {
+  display: block;
+  margin: 12px 0;
+  font-size: 16px;
+}
+.lab input:not([type="checkbox"]),
+.lab textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8b9692;
+  border-radius: 6px;
+  background: white;
+  color: #14201f;
+  font: inherit;
+  box-sizing: border-box;
+}
+.lab textarea {
+  resize: vertical;
+}
+.lab button {
+  padding: 9px 14px;
+  margin: 8px 8px 0 0;
+  border: 1px solid #14201f;
+  border-radius: 6px;
+  background: #edf3e6;
+  cursor: pointer;
+  font-size: 16px;
+}
+.lab button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.lab .lab-primary {
+  background: #14201f;
+  color: white;
+}
+.lab-fields {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  min-width: 0;
+}
+.lab-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+.lab-items {
+  list-style: none;
+  padding: 0;
+}
+.lab-items li {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  overflow-wrap: anywhere;
+}
+.lab-items span {
+  display: block;
+  color: #626e6a;
+  font-size: 14px;
+}
+.lab-check {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+}
+.lab-check input {
+  width: 20px;
+  height: 20px;
+}
+.lab-status {
+  min-height: 30px;
+  margin: 12px 0;
+  color: #853a12;
+}
+.lab-report li {
+  margin: 10px 0;
+}
+.lab-report details {
+  border: 1px solid var(--line);
+  padding: 12px;
+  margin: 10px 0;
+}
+.lab-report summary {
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.lab small {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 760px) {
+  .lab-columns {
+    grid-template-columns: 1fr;
+  }
+  .lab-card {
+    padding: 18px;
+  }
+  .lab {
+    padding: 20px 12px;
+  }
+  .lab-heading h1 {
+    font-size: 27px;
+  }
+}
