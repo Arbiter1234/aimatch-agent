@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/Arbiter1234/aimatch-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Arbiter1234/aimatch-agent/actions/workflows/ci.yml)
 
-一个面向求职准备的 **LangGraph + RAG + Memory** 开源原型。输入简历与 JD，输出证据映射、差距、行动计划、面试问题及参考知识建议。由 AI 辅助编程完成，不是已经验证招聘效果的商业产品。
+一个面向求职准备的 **LangGraph + RAG + Memory** 开源原型。输入简历与 JD，输出证据映射、差距、行动计划、面试问题及参考知识建议。
 
 - `/`：公开作品展示，合成样例，不调用模型。
 - `/lab`：私有工作台，管理知识、偏好及会话摘要，调用真实模型。
